@@ -14,8 +14,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "1683225887"))
 PORT = os.environ.get("PORT", "8080")
 
 # Database
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://adamopytbusiness1:uSswEjo4ZHMGDU8Z@cluster0.gqgmk.mongodb.net/?retryWrites=true&w=majority&appName=FuryLinkBot")
-DB_NAME = os.environ.get("DB_NAME", "Fury_Link_Bot")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://sn117020:g3tULq1KLqxgzfgd@cluster0.ju3tzdx.mongodb.net/mybotdb?retryWrites=true&w=majority&appName=RemLinkprobot")
+DB_NAME = os.environ.get("DB_NAME", "Rem_Link_probot")
 
 #Auto approve 
 CHAT_ID = [int(app_chat_id) if id_pattern.search(app_chat_id) else app_chat_id for app_chat_id in environ.get('CHAT_ID', '').split()] # dont change anything 
