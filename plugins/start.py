@@ -1,4 +1,5 @@
 # +++ Edited By Gojo [telegram username: @DoraShin_hlo] 
+from pyrogram.errors import UserIsBlocked, RPCError
 import asyncio
 import base64
 import time
