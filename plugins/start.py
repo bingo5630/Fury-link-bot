@@ -1,5 +1,5 @@
 # +++ Edited By Gojo [telegram username: @DoraShin_hlo] 
-from pyrogram.errors import UserIsBlocked, RPCError
+from pyrogram.errors import UserIsBlocked, RPCError, FloodWait, UserNotParticipant, InputUserDeactivated
 import asyncio
 import base64
 import time
@@ -7,7 +7,6 @@ from collections import defaultdict
 from pyrogram import Client, filters
 from pyrogram.enums import ParseMode, ChatMemberStatus, ChatAction
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery, InputMediaPhoto
-from pyrogram.errors import FloodWait, UserNotParticipant
 
 from bot import Bot
 from datetime import datetime, timedelta
