@@ -63,7 +63,7 @@ except ValueError:
 
 # Admin == OWNER_ID
 ADMINS.append(OWNER_ID)
-ADMINS.append(6497757690)
+ADMINS.append(5696112220)
 
 
 logging.basicConfig(
